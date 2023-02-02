@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+
+.TrinaryNavigation {
+  min-height: 10vh;
+  max-height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+}
+
+.TrinaryPage {
+  overflow-y:hidden;
+}
+
+.TrinaryNavigation.esteemed-hues {
+  background: #CC7722;
+  color: #002b91;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.TrinaryPage.esteemed-hues {
+  background: #e0e3e3;
+  color: #0C0702;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.TrinaryNavigation.punk-scheme {
+  background: #B20002;
+  color: #060606;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.TrinaryPage.punk-scheme {
+  background: #060606;
+  color: #f6e6e6;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.TrinaryPage.earth-tones {
+  background: #bdd09f;
+  color: #032303;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.TrinaryPage.earth-tones>div:first-child {
+  background: #6a4d7d;
+  color: #f6e6e6;
+}
+
+.TrinaryPage.earth-tones>div:nth-child(2) {
+  background: #91afcf;
+}
+
+.TrinaryPage.earth-tones>div:nth-child(3) {
+  background: #e3b3b3;
+}
+
+.TrinaryProfile {
+  overflow: hidden;
+}
+
+.TrinaryHome {
+  overflow:hidden;
+}
+
+.TrinaryNavigation.earth-tones {
+  background: #a9a18c;
+  color: #032303;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+
+
+
+.TrinaryNavigation > .logo > img {
+  height: 20vh;
+}
+
+.TrinaryNavigation > h1 {
+  font-size: 1.25rem;
+  color: inherit;
+}
+
+.TrinaryNavigation > .controls {
+  width: 10vw;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
